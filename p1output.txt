@@ -1,1 +1,9 @@
 
+ gcc -g p1original.c
+ ./a.out
+enter the base
+5
+enter the height
+4
+the area of triangle of base 5.000000 and height 4.000000 is 10.000000  
+
