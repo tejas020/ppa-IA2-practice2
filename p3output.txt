@@ -1,1 +1,6 @@
-
+ 
+ gcc -g p3original.c
+ ./a.out
+enter a number: 
+5
+5 is COMPOSITE 

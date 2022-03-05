@@ -2,14 +2,14 @@
 int input_side()
 {
   int a;
-  printf("enter the a value:");
+  printf("enter the value:");
   scanf("%d",&a);
   return a;
 }
 int check_scalene(int a,int b,int c)
 {
   
-  if(a!=b && b!=c)
+  if(a!=b && b!=c && c!=a)//incomplete condition
   return 0;
   else
   return 1;
@@ -27,7 +27,7 @@ int main()
   int a,b,c,d;
   a=input_side();
   b=input_side();
-  c=a=input_side();
+  c=input_side();
   d=check_scalene(a,b,c);
   output(a,b,c,d);
   return 0; 
